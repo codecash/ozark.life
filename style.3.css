@@ -7,11 +7,10 @@ html {
 h1 {
     text-align: center;
 }
-body {
+.container {
     display: flex;
     justify-content: center;
-}
-[class="app"] {
-    flex: 1;
+    flex-direction: column;
     max-width: 768px;
+    margin: 0 auto;
 }
